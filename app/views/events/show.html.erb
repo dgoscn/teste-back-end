@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Uuid:</strong>
+  <%= @event.uuid %>
+</p>
+
+<p>
+  <strong>Url:</strong>
+  <%= @event.url %>
+</p>
+
+<p>
+  <strong>Timestamp:</strong>
+  <%= @event.timestamp %>
+</p>
+
+<%= link_to 'Edit', edit_event_path(@event) %> |
+<%= link_to 'Back', events_path %>
