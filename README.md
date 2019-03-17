@@ -1,24 +1,24 @@
-# README
+# Teste iCasei: Back-end
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
+## Intro
 
-* Ruby version
+This is an application running in Ruby on Rails that allows us to see the simplicity and productivity of Rails with the usability of the Javascript language.
 
-* System dependencies
+### Setup Project
 
-* Configuration
+If you are using a Linux based system and you doesn't have Rails & Ruby installed, you can follow this link and set the environment: https://gorails.com/setup/ubuntu/18.04
+If you are using Windows, follow this one: https://gorails.com/setup/windows/10
 
-* Database creation
+***Obs: We will be using the database PostgreSQL, so install it based on the links above.***
 
-* Database initialization
+You can download the repository using the following command:
 
-* How to run the test suite
+```
 
-* Services (job queues, cache servers, search engines, etc.)
+```
 
-* Deployment instructions
+## Running the Project
 
-* ...
+
+
