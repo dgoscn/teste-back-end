@@ -1,5 +1,4 @@
-var EVENTS_URL = 'http://0.0.0:3000/events' // constantes UPPERCASE =) boas pra
-
+var EVENTS_URL = 'http://0.0.0:3000/events'
 function postEvent(event) {
   const postConfig = {
     method: 'POST', // or 'PUT'
