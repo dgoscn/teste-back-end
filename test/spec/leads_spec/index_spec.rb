@@ -19,10 +19,11 @@ end
     @driver.find_element(xpath: '/html/body/h1')
     @driver.find_element(xpath: '/html/body/table/thead/tr/th[1]')
     @driver.find_element(xpath: '/html/body/table/thead/tr/th[2]')   
-    @driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[1]')
-    @driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[2]')
-    @driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[3]')
-    @driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[4]/a')
+    # We will use this path, when we had a lead created at de database
+    #@driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[1]')
+    #@driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[2]')
+    #@driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[3]')
+    #@driver.find_element(xpath: '/html/body/table/tbody/tr[1]/td[4]/a')
     #The example above, I tried to simulate de "delete" operation, but I had some trouble with form requisiton    @driver.find_element(xpath: '/html/body/a').click(); #At this point, I could not test,
     #the page opened by the action and testing. I made it manually testing a new with a new_spec file
   end

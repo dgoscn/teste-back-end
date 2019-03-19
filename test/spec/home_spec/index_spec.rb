@@ -16,14 +16,12 @@ end
   #of these items with xpath.
   it 'succeeded' do
     @driver.get 'http://0.0.0.0:3000/'
-    @driver.find_element(id: 'navbarResponsive')
     @driver.find_element(xpath: '/html/body/div/div/div/h1')
     @driver.find_element(xpath: '/html/body/nav/div/a')
     @driver.find_element(xpath: '/html/body/div/div/div/p')    
     @driver.find_element(xpath: '//*[@id="navbarResponsive"]/ul/li[1]/a')
     @driver.find_element(xpath: '//*[@id="navbarResponsive"]/ul/li[2]/a')
     @driver.find_element(xpath: '//*[@id="navbarResponsive"]/ul/li[3]/a')
-    expect(@driver.find_element(id: 'navbarResponsive').displayed?).to be(true)
   end
 
 end
