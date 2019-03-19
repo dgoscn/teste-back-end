@@ -45,6 +45,9 @@ And run
 bundle install
 ```
 ```
+gem update --system
+```
+```
 rails sever
 ```
 Go to the URL displayed by Rails Server. For example: 0.0.0.0:3000
