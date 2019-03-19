@@ -7,7 +7,7 @@ This is an application running in Ruby on Rails that allows us to see the simpli
 
 ### Setup Project
 
-If you are using a Linux based system and you doesn't have Rails & Ruby installed, you can follow this link and set the environment: https://gorails.com/setup/ubuntu/18.04
+If you are using a Linux based system and you doesn't have Rails & Ruby installed, you can follow this link and set the environment: https://blog.eq8.eu/article/set-up-ubuntu-1804-for-rails-developer-2019.html
 If you are using Windows, follow this one: https://gorails.com/setup/windows/10
 
 ***Obs: We will be using the database PostgreSQL, so install it based on the links above.***
