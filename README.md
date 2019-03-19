@@ -47,8 +47,30 @@ bundle install
 ```
 gem update --system
 ```
+bundle install --binstubs
 ```
-rails sever
+sudo install npm
+```
+
+```
+this may take a while
+```
+**IMPORTANT**
+
+*If you followed the tutorial to setup the environment in Linux, it is important that you done the session about Postgres. Once that you have the database created we can move on*
+
+```
+bundle exec rake db:create
+```
+```
+bundle exec rake db:migrate
+```
+```
+rails server
+```
+or
+```
+bundle exec rails server
 ```
 Go to the URL displayed by Rails Server. For example: 0.0.0.0:3000
 
