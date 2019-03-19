@@ -50,7 +50,7 @@ The application is running with most of its concept applied. Some parts have not
  0.0.0.0:3000/events
 ```
 
-At this route, if you prefer, open you Chrome Console via F12. You will see some erros, but focus in the last. At you first access you will see the UIID, TIMESTAMP and URL accessed by the user at the time.
+At this route, if you prefer, open your Chrome Console via F12 or fn F12. You will see some erros, but focus in the last one. At you first access you will see the UIID, TIMESTAMP and URL accessed by the user at the time.
 
 ### Acknowledgment
 Thank you iCasei team for the especifications about the project
