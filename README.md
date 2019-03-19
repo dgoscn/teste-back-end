@@ -41,3 +41,16 @@ rspec spec/
 ```
 
 ## Conclusion
+
+The application is running with most of its concept applied. Some parts have not been implemented, such as a page displaying the 50 user accesses, however, their logic is implemented. So much for part of the controller of the "events" when for library created inside the /application/javascript.
+
+*To see the events, you could just type*
+
+```
+ 0.0.0.0:3000/events
+```
+
+At this route, if you prefer, open you Chrome Console via F12. You will see some erros, but focus in the last. At you first access you will see the UIID, TIMESTAMP and URL accessed by the user at the time.
+
+### Acknowledgment
+Thank you iCasei team for the especifications about the project
