@@ -23,8 +23,9 @@ Linux
 ```
 mkdir teste
 cd teste
-cd teste-back-end
 git clone https://github.com/dgoscn/teste-back-end.git
+cd teste-back-end
+
 ```
 You can download it via Zip and extract local. Do the same if you are running a Windows
 
