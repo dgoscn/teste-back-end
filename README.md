@@ -42,6 +42,9 @@ possible output:
 ```
 And run
 ```
+bundle install
+```
+```
 rails sever
 ```
 Go to the URL displayed by Rails Server. For example: 0.0.0.0:3000
