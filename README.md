@@ -13,7 +13,8 @@ If you are using Windows, follow this one: https://gorails.com/setup/windows/10
 ***Obs: We will be using the database PostgreSQL, so install it based on the links above.***
 ***The Ruby version used is 2.5.3  and Rails 5.2.2***
 
-You can download the repository using the following command:
+You can download the repository using the following command at Linux Terminal:
+####WINDOWS USERS: You can search for Cmder and setup de configs
 
 Linux
 ```
@@ -27,6 +28,15 @@ You can download it via Zip and extract local. Do the same if you are running a 
 ## Running the Project
 
 Once you are inside the project, you can run the command:
+
+```
+check if you are inside de past, typing: pwd
+
+Example Output:
+
+/home/YOURUSER/Downloads/icaseii
+
+```
 ```
 rails sever
 ```
