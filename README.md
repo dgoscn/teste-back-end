@@ -27,16 +27,16 @@ You can download it via Zip and extract local. Do the same if you are running a 
 
 ## Running the Project
 
-Once you are inside the project, you can run the command:
+Once you are inside the project, you can type the command:
 
 ```
-check if you are inside de past, typing: pwd
+pwd
 
-Example Output:
+possible output:
 
 /home/YOURUSER/Downloads/icaseii
-
 ```
+And run
 ```
 rails sever
 ```
