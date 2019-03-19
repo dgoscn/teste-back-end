@@ -54,9 +54,9 @@ bundle install --binstubs
 sudo install npm
 ```
 
-```
+
 this may take a while
-```
+
 **IMPORTANT**
 
 *If you followed the tutorial to setup the environment in Linux, it is important that you done the session about Postgres. Once that you have the database created we can move on*
@@ -77,6 +77,14 @@ bundle exec rails server
 Go to the URL displayed by Rails Server. For example: 0.0.0.0:3000
 
 ## Testing 
+
+At this part, to manipulate the navigator tests, we need to have the Google Chrome version 73. This happens because web driver of Selenium downloaded it is the version 73.
+You can check your chrome version at URL typing ```chrome://version/```
+If your version is 74.*, you can download the the Selenium Server at:
+```
+https://sites.google.com/a/chromium.org/chromedriver/downloads
+```
+And go to test/browser and replace.
 
 With the server running, we can open another tab and inside that, we can run the following commands
 ```
