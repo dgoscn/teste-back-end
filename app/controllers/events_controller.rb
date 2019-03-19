@@ -5,6 +5,8 @@ class EventsController < ApplicationController
   # GET /events.json
   def index
     @events = Event.all
+    #At this situation, If I had the post working fine, I would take the top 50
+    #@events = Event.all.sort(:timestamp).first(50)
   end
 
   # GET /events/1
