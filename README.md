@@ -47,6 +47,7 @@ bundle install
 ```
 gem update --system
 ```
+```
 bundle install --binstubs
 ```
 sudo install npm
