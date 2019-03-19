@@ -7,10 +7,10 @@ This is an application running in Ruby on Rails that allows us to see the simpli
 
 ### Setup Project
 
-If you are using a Linux based system and you doesn't have Rails & Ruby installed, you can follow this link and set the environment: https://blog.eq8.eu/article/set-up-ubuntu-1804-for-rails-developer-2019.html. *Some users can get a little proble when try to install rvm, please, go to your /etc/resolv.conf and set nameserver 8.8.8.8 to works!*
+If you are using a Linux based system and you doesn't have Rails & Ruby installed, you can follow this link and set the environment: https://blog.eq8.eu/article/set-up-ubuntu-1804-for-rails-developer-2019.html. *Some users can get a little problem when try to install rvm, please, go to your /etc/resolv.conf and set nameserver 8.8.8.8 to works!. After that, restart your system and try again to install Ruby*
 If you are using Windows, follow this one: https://gorails.com/setup/windows/10
 
-***Obs: We will be using the database PostgreSQL, so install it based on the links above.***
+***Obs: We will be using the database PostgreSQL 10.6, so install it based on the links above.***
 ***The Ruby version used is 2.5.3  and Rails 5.2.2***
 
 You can download the repository using the following command at Linux Terminal:
